@@ -39,7 +39,7 @@ const LatestCourses = () => {
         })}
       </div>
       <Link to="/courses" className="btn-primary">
-        all courses
+        latest courses
       </Link>
     </section>
   )
