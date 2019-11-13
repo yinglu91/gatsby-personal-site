@@ -32,14 +32,14 @@ const LatestCourses = () => {
   console.log(courses)
   return (
     <section className={styles.courses}>
-      <Title title="all" subtitle="courses" />
+      <Title title="latest" subtitle="courses" />
       <div className={styles.center}>
         {courses.map(item => {
           return <Course key={item.id} {...item} />
         })}
       </div>
       <Link to="/courses" className="btn-primary">
-        latest courses
+        all courses
       </Link>
     </section>
   )
